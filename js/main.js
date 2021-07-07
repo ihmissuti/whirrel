@@ -12,9 +12,7 @@ function getPrediction(title) {
       }
   }
 
-  function relDiff(a, b) {
-    return  100 * Math.abs( ( a - b ) / ( (a+b)/2 ) );
-   }
+
   function adjustSize(string) {
       
       while (string.length < longest) {
@@ -36,19 +34,13 @@ function getPrediction(title) {
     net.toFunction();
     var answer = await getPrediction(titleA)
     var answerB = await getPrediction(titleB)
-          console.log(answer)
-          console.log(answerB)
 
           $(".results").css("display", "block");
           if (answer.views > answerB.views) {
-            console.log("A wins")
-
 
             $( "#containerA" ).addClass( "winner" );
             $( "#result" ).html( "The winner is title A: " + titleA + ' views' + answer );
           } else {
-            console.log("B wins")
-
 
             $( "#containerB" ).addClass( "winner" );
             $( "#result" ).html( "The winner is title B: " + titleB + ' views ' + answerB);

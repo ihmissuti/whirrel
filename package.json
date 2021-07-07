@@ -1,22 +1,24 @@
 {
-  "name": "hacker-ai",
+  "name": "whirrel",
   "version": "1.0.0",
-  "description": "Pre-test Hacker News Show HN posts with AI",
+  "description": "A/B test your tweets with AI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Grew-dev/hacker-ai.git"
+    "url": "git+https://github.com/ihmissuti/whirrel.git"
   },
   "keywords": [
-    "AI"
+    "AI",
+    "Twitter",
+    "ML"
   ],
   "author": "Kimmo Ihanus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Grew-dev/hacker-ai/issues"
+    "url": "https://github.com/ihmissuti/whirrel/issues"
   },
-  "homepage": "https://github.com/Grew-dev/hacker-ai#readme"
+  "homepage": "https://github.com/ihmissuti/whirrel#readme"
 }
